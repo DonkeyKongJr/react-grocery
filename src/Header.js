@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <div>
-      <div className="header">
+      <header className="header">
         <a href="#default" className="logo">
           Logo
         </a>
@@ -15,14 +15,12 @@ function Header() {
           <a
             href="https://github.com/DonkeyKongJr/react-grocery"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+          >
             GitHub
           </a>
         </div>
-      </div>
-      <div>
-        <h1>Welcome to React Grocery App</h1>
-      </div>
+      </header>
     </div>
   );
 }
